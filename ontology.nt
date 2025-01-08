@@ -1,0 +1,1379 @@
+<file:/C:/linkml/CHLOD/NCHLOD.owl.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<file:/C:/linkml/CHLOD/NCHLOD.owl.ttl> <http://www.w3.org/2000/01/rdf-schema#label> "nepalCulturalHeritageLinkedOpenData" .
+<file:/C:/linkml/CHLOD/NCHLOD.owl.ttl> <http://www.w3.org/2004/02/skos/core#definition> "A schema based on CIDOC CRM to represent Nepal's cultural heritage data." .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#inScheme
+<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://cair-nepal.org/nchlodacquired
+<https://cair-nepal.org/nchlodacquired> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodacquired> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE22HumanMadeObject> .
+<https://cair-nepal.org/nchlodacquired> <http://www.w3.org/2000/01/rdf-schema#label> "acquired" .
+<https://cair-nepal.org/nchlodacquired> <http://www.w3.org/2004/02/skos/core#definition> "The object that was acquired in an acquisition event." .
+<https://cair-nepal.org/nchlodacquired> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodadded_part
+<https://cair-nepal.org/nchlodadded_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodadded_part> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE22HumanMadeObject> .
+<https://cair-nepal.org/nchlodadded_part> <http://www.w3.org/2000/01/rdf-schema#label> "added_part" .
+<https://cair-nepal.org/nchlodadded_part> <http://www.w3.org/2004/02/skos/core#definition> "The part that was added during an addition event." .
+<https://cair-nepal.org/nchlodadded_part> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodassigned_by
+<https://cair-nepal.org/nchlodassigned_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodassigned_by> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE39Actor> .
+<https://cair-nepal.org/nchlodassigned_by> <http://www.w3.org/2000/01/rdf-schema#label> "assigned_by" .
+<https://cair-nepal.org/nchlodassigned_by> <http://www.w3.org/2004/02/skos/core#definition> "The actor who assigned the attribute." .
+<https://cair-nepal.org/nchlodassigned_by> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodborn_person
+<https://cair-nepal.org/nchlodborn_person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodborn_person> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE21Person> .
+<https://cair-nepal.org/nchlodborn_person> <http://www.w3.org/2000/01/rdf-schema#label> "born_person" .
+<https://cair-nepal.org/nchlodborn_person> <http://www.w3.org/2004/02/skos/core#definition> "The person born during a birth event." .
+<https://cair-nepal.org/nchlodborn_person> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodcreated_concept
+<https://cair-nepal.org/nchlodcreated_concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodcreated_concept> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE73InformationObject> .
+<https://cair-nepal.org/nchlodcreated_concept> <http://www.w3.org/2000/01/rdf-schema#label> "created_concept" .
+<https://cair-nepal.org/nchlodcreated_concept> <http://www.w3.org/2004/02/skos/core#definition> "The concept or information object created during a creation event." .
+<https://cair-nepal.org/nchlodcreated_concept> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchloddeceased_person
+<https://cair-nepal.org/nchloddeceased_person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchloddeceased_person> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE21Person> .
+<https://cair-nepal.org/nchloddeceased_person> <http://www.w3.org/2000/01/rdf-schema#label> "deceased_person" .
+<https://cair-nepal.org/nchloddeceased_person> <http://www.w3.org/2004/02/skos/core#definition> "The person who died during a death event." .
+<https://cair-nepal.org/nchloddeceased_person> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchloddepicted_in
+<https://cair-nepal.org/nchloddepicted_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchloddepicted_in> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE36VisualItem> .
+<https://cair-nepal.org/nchloddepicted_in> <http://www.w3.org/2000/01/rdf-schema#label> "depicted_in" .
+<https://cair-nepal.org/nchloddepicted_in> <http://www.w3.org/2004/02/skos/core#definition> "The visual item where an object or event is depicted." .
+<https://cair-nepal.org/nchloddepicted_in> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchloddestroyed
+<https://cair-nepal.org/nchloddestroyed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchloddestroyed> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE22HumanMadeObject> .
+<https://cair-nepal.org/nchloddestroyed> <http://www.w3.org/2000/01/rdf-schema#label> "destroyed" .
+<https://cair-nepal.org/nchloddestroyed> <http://www.w3.org/2004/02/skos/core#definition> "The object that was destroyed in an event." .
+<https://cair-nepal.org/nchloddestroyed> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchloddissolved_group
+<https://cair-nepal.org/nchloddissolved_group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchloddissolved_group> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE74Group> .
+<https://cair-nepal.org/nchloddissolved_group> <http://www.w3.org/2000/01/rdf-schema#label> "dissolved_group" .
+<https://cair-nepal.org/nchloddissolved_group> <http://www.w3.org/2004/02/skos/core#definition> "The group dissolved during a dissolution event." .
+<https://cair-nepal.org/nchloddissolved_group> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodformed_group
+<https://cair-nepal.org/nchlodformed_group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodformed_group> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE74Group> .
+<https://cair-nepal.org/nchlodformed_group> <http://www.w3.org/2000/01/rdf-schema#label> "formed_group" .
+<https://cair-nepal.org/nchlodformed_group> <http://www.w3.org/2004/02/skos/core#definition> "The group formed during a formation event." .
+<https://cair-nepal.org/nchlodformed_group> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodhas_dimension
+<https://cair-nepal.org/nchlodhas_dimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodhas_dimension> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE54Dimension> .
+<https://cair-nepal.org/nchlodhas_dimension> <http://www.w3.org/2000/01/rdf-schema#label> "has_dimension" .
+<https://cair-nepal.org/nchlodhas_dimension> <http://www.w3.org/2004/02/skos/core#definition> "The dimensions of an object." .
+<https://cair-nepal.org/nchlodhas_dimension> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodhas_language
+<https://cair-nepal.org/nchlodhas_language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodhas_language> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE56Language> .
+<https://cair-nepal.org/nchlodhas_language> <http://www.w3.org/2000/01/rdf-schema#label> "has_language" .
+<https://cair-nepal.org/nchlodhas_language> <http://www.w3.org/2004/02/skos/core#definition> "The language in which an appellation or linguistic object is used. This property associates the linguistic object or appellation with a specific language, indicating the cultural or linguistic context in which it is valid and used." .
+<https://cair-nepal.org/nchlodhas_language> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodhas_members
+<https://cair-nepal.org/nchlodhas_members> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodhas_members> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE39Actor> .
+<https://cair-nepal.org/nchlodhas_members> <http://www.w3.org/2000/01/rdf-schema#label> "has_members" .
+<https://cair-nepal.org/nchlodhas_members> <http://www.w3.org/2004/02/skos/core#definition> "The members of a group." .
+<https://cair-nepal.org/nchlodhas_members> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodhas_time
+<https://cair-nepal.org/nchlodhas_time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodhas_time> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE52Time-Span> .
+<https://cair-nepal.org/nchlodhas_time> <http://www.w3.org/2000/01/rdf-schema#label> "has_time" .
+<https://cair-nepal.org/nchlodhas_time> <http://www.w3.org/2004/02/skos/core#definition> "The time span during which an event occurred." .
+<https://cair-nepal.org/nchlodhas_time> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodhas_unit
+<https://cair-nepal.org/nchlodhas_unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodhas_unit> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE58MeasurementUnit> .
+<https://cair-nepal.org/nchlodhas_unit> <http://www.w3.org/2000/01/rdf-schema#label> "has_unit" .
+<https://cair-nepal.org/nchlodhas_unit> <http://www.w3.org/2004/02/skos/core#definition> "The unit of measurement for a dimension." .
+<https://cair-nepal.org/nchlodhas_unit> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodidentifies_object
+<https://cair-nepal.org/nchlodidentifies_object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodidentifies_object> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE22HumanMadeObject> .
+<https://cair-nepal.org/nchlodidentifies_object> <http://www.w3.org/2000/01/rdf-schema#label> "identifies_object" .
+<https://cair-nepal.org/nchlodidentifies_object> <http://www.w3.org/2004/02/skos/core#definition> "The object that an identifier refers to." .
+<https://cair-nepal.org/nchlodidentifies_object> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodjoined_people
+<https://cair-nepal.org/nchlodjoined_people> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodjoined_people> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE21Person> .
+<https://cair-nepal.org/nchlodjoined_people> <http://www.w3.org/2000/01/rdf-schema#label> "joined_people" .
+<https://cair-nepal.org/nchlodjoined_people> <http://www.w3.org/2004/02/skos/core#definition> "The people joined together during a marriage event." .
+<https://cair-nepal.org/nchlodjoined_people> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodmade_of
+<https://cair-nepal.org/nchlodmade_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodmade_of> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE57Material> .
+<https://cair-nepal.org/nchlodmade_of> <http://www.w3.org/2000/01/rdf-schema#label> "made_of" .
+<https://cair-nepal.org/nchlodmade_of> <http://www.w3.org/2004/02/skos/core#definition> "The material that an object is made of." .
+<https://cair-nepal.org/nchlodmade_of> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodmodified
+<https://cair-nepal.org/nchlodmodified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodmodified> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE22HumanMadeObject> .
+<https://cair-nepal.org/nchlodmodified> <http://www.w3.org/2000/01/rdf-schema#label> "modified" .
+<https://cair-nepal.org/nchlodmodified> <http://www.w3.org/2004/02/skos/core#definition> "The object that was modified in a modification event." .
+<https://cair-nepal.org/nchlodmodified> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodoccurred_in
+<https://cair-nepal.org/nchlodoccurred_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodoccurred_in> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE53Place> .
+<https://cair-nepal.org/nchlodoccurred_in> <http://www.w3.org/2000/01/rdf-schema#label> "occurred_in" .
+<https://cair-nepal.org/nchlodoccurred_in> <http://www.w3.org/2004/02/skos/core#definition> "The location where an event occurred." .
+<https://cair-nepal.org/nchlodoccurred_in> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodparticipated_in
+<https://cair-nepal.org/nchlodparticipated_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodparticipated_in> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE5Event> .
+<https://cair-nepal.org/nchlodparticipated_in> <http://www.w3.org/2000/01/rdf-schema#label> "participated_in" .
+<https://cair-nepal.org/nchlodparticipated_in> <http://www.w3.org/2004/02/skos/core#definition> "The event in which an actor participated." .
+<https://cair-nepal.org/nchlodparticipated_in> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodproduced
+<https://cair-nepal.org/nchlodproduced> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodproduced> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE22HumanMadeObject> .
+<https://cair-nepal.org/nchlodproduced> <http://www.w3.org/2000/01/rdf-schema#label> "produced" .
+<https://cair-nepal.org/nchlodproduced> <http://www.w3.org/2004/02/skos/core#definition> "The object or outcome produced as a result of an activity." .
+<https://cair-nepal.org/nchlodproduced> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodproduced_object
+<https://cair-nepal.org/nchlodproduced_object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodproduced_object> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE22HumanMadeObject> .
+<https://cair-nepal.org/nchlodproduced_object> <http://www.w3.org/2000/01/rdf-schema#label> "produced_object" .
+<https://cair-nepal.org/nchlodproduced_object> <http://www.w3.org/2004/02/skos/core#definition> "The physical object produced during a production event." .
+<https://cair-nepal.org/nchlodproduced_object> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodreferenced_in
+<https://cair-nepal.org/nchlodreferenced_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodreferenced_in> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE55Type> .
+<https://cair-nepal.org/nchlodreferenced_in> <http://www.w3.org/2000/01/rdf-schema#label> "referenced_in" .
+<https://cair-nepal.org/nchlodreferenced_in> <http://www.w3.org/2004/02/skos/core#definition> "The external vocabulary or type that an object is associated with." .
+<https://cair-nepal.org/nchlodreferenced_in> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodremoved_part
+<https://cair-nepal.org/nchlodremoved_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodremoved_part> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE22HumanMadeObject> .
+<https://cair-nepal.org/nchlodremoved_part> <http://www.w3.org/2000/01/rdf-schema#label> "removed_part" .
+<https://cair-nepal.org/nchlodremoved_part> <http://www.w3.org/2004/02/skos/core#definition> "The part that was removed during a removal event." .
+<https://cair-nepal.org/nchlodremoved_part> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodseparated_people
+<https://cair-nepal.org/nchlodseparated_people> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodseparated_people> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE21Person> .
+<https://cair-nepal.org/nchlodseparated_people> <http://www.w3.org/2000/01/rdf-schema#label> "separated_people" .
+<https://cair-nepal.org/nchlodseparated_people> <http://www.w3.org/2004/02/skos/core#definition> "The people separated during a divorce event." .
+<https://cair-nepal.org/nchlodseparated_people> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodspoken_by
+<https://cair-nepal.org/nchlodspoken_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodspoken_by> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE39Actor> .
+<https://cair-nepal.org/nchlodspoken_by> <http://www.w3.org/2000/01/rdf-schema#label> "spoken_by" .
+<https://cair-nepal.org/nchlodspoken_by> <http://www.w3.org/2004/02/skos/core#definition> "The actor who speaks a particular language." .
+<https://cair-nepal.org/nchlodspoken_by> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodtransferred
+<https://cair-nepal.org/nchlodtransferred> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodtransferred> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE22HumanMadeObject> .
+<https://cair-nepal.org/nchlodtransferred> <http://www.w3.org/2000/01/rdf-schema#label> "transferred" .
+<https://cair-nepal.org/nchlodtransferred> <http://www.w3.org/2004/02/skos/core#definition> "The object that was transferred during an event of custody transfer." .
+<https://cair-nepal.org/nchlodtransferred> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodunit_of
+<https://cair-nepal.org/nchlodunit_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodunit_of> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE58MeasurementUnit> .
+<https://cair-nepal.org/nchlodunit_of> <http://www.w3.org/2000/01/rdf-schema#label> "unit_of" .
+<https://cair-nepal.org/nchlodunit_of> <http://www.w3.org/2004/02/skos/core#definition> "The measurement unit for a dimension." .
+<https://cair-nepal.org/nchlodunit_of> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodused
+<https://cair-nepal.org/nchlodused> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodused> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE57Material> .
+<https://cair-nepal.org/nchlodused> <http://www.w3.org/2000/01/rdf-schema#label> "used" .
+<https://cair-nepal.org/nchlodused> <http://www.w3.org/2004/02/skos/core#definition> "The materials or objects used during an activity." .
+<https://cair-nepal.org/nchlodused> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodused_in
+<https://cair-nepal.org/nchlodused_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodused_in> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE57Material> .
+<https://cair-nepal.org/nchlodused_in> <http://www.w3.org/2000/01/rdf-schema#label> "used_in" .
+<https://cair-nepal.org/nchlodused_in> <http://www.w3.org/2004/02/skos/core#definition> "The material used in an object or activity." .
+<https://cair-nepal.org/nchlodused_in> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodused_in_transaction
+<https://cair-nepal.org/nchlodused_in_transaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodused_in_transaction> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE98Currency> .
+<https://cair-nepal.org/nchlodused_in_transaction> <http://www.w3.org/2000/01/rdf-schema#label> "used_in_transaction" .
+<https://cair-nepal.org/nchlodused_in_transaction> <http://www.w3.org/2004/02/skos/core#definition> "The currency used in a monetary transaction." .
+<https://cair-nepal.org/nchlodused_in_transaction> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodwritten_in
+<https://cair-nepal.org/nchlodwritten_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://cair-nepal.org/nchlodwritten_in> <http://www.w3.org/2000/01/rdf-schema#range> <https://cair-nepal.org/nchlodE56Language> .
+<https://cair-nepal.org/nchlodwritten_in> <http://www.w3.org/2000/01/rdf-schema#label> "written_in" .
+<https://cair-nepal.org/nchlodwritten_in> <http://www.w3.org/2004/02/skos/core#definition> "The language in which a linguistic object is written." .
+<https://cair-nepal.org/nchlodwritten_in> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://cair-nepal.org/nchlodaffiliation
+<https://cair-nepal.org/nchlodaffiliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://cair-nepal.org/nchlodaffiliation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://cair-nepal.org/nchlodaffiliation> <http://www.w3.org/2000/01/rdf-schema#label> "affiliation" .
+<https://cair-nepal.org/nchlodaffiliation> <http://www.w3.org/2004/02/skos/core#definition> "The organization or institution a contributor is affiliated with." .
+<https://cair-nepal.org/nchlodaffiliation> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodassigned_attribute
+<https://cair-nepal.org/nchlodassigned_attribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://cair-nepal.org/nchlodassigned_attribute> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://cair-nepal.org/nchlodassigned_attribute> <http://www.w3.org/2000/01/rdf-schema#label> "assigned_attribute" .
+<https://cair-nepal.org/nchlodassigned_attribute> <http://www.w3.org/2004/02/skos/core#definition> "The attribute that was assigned during an attribute assignment event." .
+<https://cair-nepal.org/nchlodassigned_attribute> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodcontains_information
+<https://cair-nepal.org/nchlodcontains_information> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://cair-nepal.org/nchlodcontains_information> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://cair-nepal.org/nchlodcontains_information> <http://www.w3.org/2000/01/rdf-schema#label> "contains_information" .
+<https://cair-nepal.org/nchlodcontains_information> <http://www.w3.org/2004/02/skos/core#definition> "The information contained in an information object." .
+<https://cair-nepal.org/nchlodcontains_information> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodcontribution_date
+<https://cair-nepal.org/nchlodcontribution_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://cair-nepal.org/nchlodcontribution_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://cair-nepal.org/nchlodcontribution_date> <http://www.w3.org/2000/01/rdf-schema#label> "contribution_date" .
+<https://cair-nepal.org/nchlodcontribution_date> <http://www.w3.org/2004/02/skos/core#definition> "The date when the contribution was made." .
+<https://cair-nepal.org/nchlodcontribution_date> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodcoordinates
+<https://cair-nepal.org/nchlodcoordinates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://cair-nepal.org/nchlodcoordinates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://cair-nepal.org/nchlodcoordinates> <http://www.w3.org/2000/01/rdf-schema#label> "coordinates" .
+<https://cair-nepal.org/nchlodcoordinates> <http://www.w3.org/2004/02/skos/core#definition> "The geographic coordinates of a place." .
+<https://cair-nepal.org/nchlodcoordinates> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodemail
+<https://cair-nepal.org/nchlodemail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://cair-nepal.org/nchlodemail> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://cair-nepal.org/nchlodemail> <http://www.w3.org/2000/01/rdf-schema#label> "email" .
+<https://cair-nepal.org/nchlodemail> <http://www.w3.org/2004/02/skos/core#definition> "The contact email of the contributor." .
+<https://cair-nepal.org/nchlodemail> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodend_date
+<https://cair-nepal.org/nchlodend_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://cair-nepal.org/nchlodend_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://cair-nepal.org/nchlodend_date> <http://www.w3.org/2000/01/rdf-schema#label> "end_date" .
+<https://cair-nepal.org/nchlodend_date> <http://www.w3.org/2004/02/skos/core#definition> "The ending point of the contribution of the user." .
+<https://cair-nepal.org/nchlodend_date> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodhas_beginning
+<https://cair-nepal.org/nchlodhas_beginning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://cair-nepal.org/nchlodhas_beginning> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://cair-nepal.org/nchlodhas_beginning> <http://www.w3.org/2000/01/rdf-schema#label> "has_beginning" .
+<https://cair-nepal.org/nchlodhas_beginning> <http://www.w3.org/2004/02/skos/core#definition> "The starting point of a time span." .
+<https://cair-nepal.org/nchlodhas_beginning> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodhas_coordinates
+<https://cair-nepal.org/nchlodhas_coordinates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://cair-nepal.org/nchlodhas_coordinates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://cair-nepal.org/nchlodhas_coordinates> <http://www.w3.org/2000/01/rdf-schema#label> "has_coordinates" .
+<https://cair-nepal.org/nchlodhas_coordinates> <http://www.w3.org/2004/02/skos/core#definition> "The geographic coordinates of a place." .
+<https://cair-nepal.org/nchlodhas_coordinates> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodhas_end
+<https://cair-nepal.org/nchlodhas_end> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://cair-nepal.org/nchlodhas_end> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://cair-nepal.org/nchlodhas_end> <http://www.w3.org/2000/01/rdf-schema#label> "has_end" .
+<https://cair-nepal.org/nchlodhas_end> <http://www.w3.org/2004/02/skos/core#definition> "The ending point of a time span." .
+<https://cair-nepal.org/nchlodhas_end> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodhas_name
+<https://cair-nepal.org/nchlodhas_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://cair-nepal.org/nchlodhas_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://cair-nepal.org/nchlodhas_name> <http://www.w3.org/2000/01/rdf-schema#label> "has_name" .
+<https://cair-nepal.org/nchlodhas_name> <http://www.w3.org/2004/02/skos/core#definition> "The name of a person." .
+<https://cair-nepal.org/nchlodhas_name> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodhas_value
+<https://cair-nepal.org/nchlodhas_value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://cair-nepal.org/nchlodhas_value> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://cair-nepal.org/nchlodhas_value> <http://www.w3.org/2000/01/rdf-schema#label> "has_value" .
+<https://cair-nepal.org/nchlodhas_value> <http://www.w3.org/2004/02/skos/core#definition> "The value of a dimension or monetary amount." .
+<https://cair-nepal.org/nchlodhas_value> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodname
+<https://cair-nepal.org/nchlodname> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://cair-nepal.org/nchlodname> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://cair-nepal.org/nchlodname> <http://www.w3.org/2000/01/rdf-schema#label> "name" .
+<https://cair-nepal.org/nchlodname> <http://www.w3.org/2004/02/skos/core#definition> "The name of an entity (e.g., a contributor, place, or event)." .
+<https://cair-nepal.org/nchlodname> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodproposition
+<https://cair-nepal.org/nchlodproposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://cair-nepal.org/nchlodproposition> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://cair-nepal.org/nchlodproposition> <http://www.w3.org/2000/01/rdf-schema#label> "proposition" .
+<https://cair-nepal.org/nchlodproposition> <http://www.w3.org/2004/02/skos/core#definition> "The propositional content of a statement or promise." .
+<https://cair-nepal.org/nchlodproposition> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodrole
+<https://cair-nepal.org/nchlodrole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://cair-nepal.org/nchlodrole> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://cair-nepal.org/nchlodrole> <http://www.w3.org/2000/01/rdf-schema#label> "role" .
+<https://cair-nepal.org/nchlodrole> <http://www.w3.org/2004/02/skos/core#definition> "The role of a contributor in the project (e.g., researcher, developer, curator)." .
+<https://cair-nepal.org/nchlodrole> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodstart_date
+<https://cair-nepal.org/nchlodstart_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://cair-nepal.org/nchlodstart_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://cair-nepal.org/nchlodstart_date> <http://www.w3.org/2000/01/rdf-schema#label> "start_date" .
+<https://cair-nepal.org/nchlodstart_date> <http://www.w3.org/2004/02/skos/core#definition> "The starting point of the contribution of the user." .
+<https://cair-nepal.org/nchlodstart_date> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://cair-nepal.org/nchlodContributor
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodaffiliation> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodcontribution_date> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodemail> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodend_date> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodname> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodrole> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodstart_date> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodaffiliation> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodcontribution_date> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodemail> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodend_date> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodname> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodrole> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodstart_date> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodaffiliation> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodcontribution_date> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodemail> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodend_date> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodname> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
+_:genid20 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodrole> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodstart_date> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2000/01/rdf-schema#label> "Contributor" .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2004/02/skos/core#definition> "Represents an individual or group contributing to the dataset or project." .
+<https://cair-nepal.org/nchlodContributor> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE10TransferOfCustody
+<https://cair-nepal.org/nchlodE10TransferOfCustody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE10TransferOfCustody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
+_:genid22 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE52Time-Span> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE10TransferOfCustody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
+_:genid23 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE22HumanMadeObject> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodtransferred> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE10TransferOfCustody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
+_:genid24 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE10TransferOfCustody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodtransferred> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE10TransferOfCustody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
+_:genid26 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE10TransferOfCustody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid27 .
+_:genid27 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodtransferred> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE10TransferOfCustody> <http://www.w3.org/2000/01/rdf-schema#label> "E10_Transfer_of_Custody" .
+<https://cair-nepal.org/nchlodE10TransferOfCustody> <http://www.w3.org/2004/02/skos/core#definition> "This class comprises events that result in the transfer of custody of an object." .
+<https://cair-nepal.org/nchlodE10TransferOfCustody> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE11Modification
+<https://cair-nepal.org/nchlodE11Modification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE11Modification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid28 .
+_:genid28 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE52Time-Span> .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE11Modification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid29 .
+_:genid29 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE22HumanMadeObject> .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodmodified> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE11Modification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid30 .
+_:genid30 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE11Modification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid31 .
+_:genid31 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodmodified> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE11Modification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid32 .
+_:genid32 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE11Modification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid33 .
+_:genid33 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodmodified> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE11Modification> <http://www.w3.org/2000/01/rdf-schema#label> "E11_Modification" .
+<https://cair-nepal.org/nchlodE11Modification> <http://www.w3.org/2004/02/skos/core#definition> "This class comprises events that result in the modification of an object." .
+<https://cair-nepal.org/nchlodE11Modification> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE12Production
+<https://cair-nepal.org/nchlodE12Production> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE12Production> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid34 .
+_:genid34 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE52Time-Span> .
+_:genid34 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE12Production> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid35 .
+_:genid35 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE22HumanMadeObject> .
+_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodproduced_object> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE12Production> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid36 .
+_:genid36 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE12Production> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid37 .
+_:genid37 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodproduced_object> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE12Production> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid38 .
+_:genid38 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE12Production> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39 .
+_:genid39 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodproduced_object> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE12Production> <http://www.w3.org/2000/01/rdf-schema#label> "E12_Production" .
+<https://cair-nepal.org/nchlodE12Production> <http://www.w3.org/2004/02/skos/core#definition> "The beginning of existence of a physical thing." .
+<https://cair-nepal.org/nchlodE12Production> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE13AttributeAssignment
+<https://cair-nepal.org/nchlodE13AttributeAssignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE13AttributeAssignment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid40 .
+_:genid40 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE39Actor> .
+_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodassigned_by> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE13AttributeAssignment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid41 .
+_:genid41 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid41 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodassigned_by> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE13AttributeAssignment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid42 .
+_:genid42 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid42 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodassigned_by> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE13AttributeAssignment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid43 .
+_:genid43 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid43 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodassigned_attribute> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE13AttributeAssignment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid44 .
+_:genid44 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid44 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodassigned_attribute> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE13AttributeAssignment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid45 .
+_:genid45 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid45 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodassigned_attribute> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE13AttributeAssignment> <http://www.w3.org/2000/01/rdf-schema#label> "E13_Attribute_Assignment" .
+<https://cair-nepal.org/nchlodE13AttributeAssignment> <http://www.w3.org/2004/02/skos/core#definition> "This class is used for recording previously believed values." .
+<https://cair-nepal.org/nchlodE13AttributeAssignment> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE21Person
+<https://cair-nepal.org/nchlodE21Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE21Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid46 .
+_:genid46 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid46 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_name> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE21Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid47 .
+_:genid47 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid47 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_name> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE21Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid48 .
+_:genid48 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid48 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_name> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE21Person> <http://www.w3.org/2000/01/rdf-schema#label> "E21_Person" .
+<https://cair-nepal.org/nchlodE21Person> <http://www.w3.org/2004/02/skos/core#definition> "This class comprises individual people." .
+<https://cair-nepal.org/nchlodE21Person> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE22HumanMadeObject
+<https://cair-nepal.org/nchlodE22HumanMadeObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE22HumanMadeObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid49 .
+_:genid49 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE54Dimension> .
+_:genid49 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_dimension> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE22HumanMadeObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid50 .
+_:genid50 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE57Material> .
+_:genid50 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodmade_of> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE22HumanMadeObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid51 .
+_:genid51 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid51 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_dimension> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE22HumanMadeObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid52 .
+_:genid52 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid52 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodmade_of> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE22HumanMadeObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid53 .
+_:genid53 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid53 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_dimension> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE22HumanMadeObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid54 .
+_:genid54 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid54 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodmade_of> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE22HumanMadeObject> <http://www.w3.org/2000/01/rdf-schema#label> "E22_Human_Made_Object" .
+<https://cair-nepal.org/nchlodE22HumanMadeObject> <http://www.w3.org/2004/02/skos/core#definition> "This class comprises physical objects created by humans." .
+<https://cair-nepal.org/nchlodE22HumanMadeObject> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE33LinguisticObject
+<https://cair-nepal.org/nchlodE33LinguisticObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE33LinguisticObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid55 .
+_:genid55 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE56Language> .
+_:genid55 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodwritten_in> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE33LinguisticObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid56 .
+_:genid56 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid56 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodwritten_in> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE33LinguisticObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid57 .
+_:genid57 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid57 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodwritten_in> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE33LinguisticObject> <http://www.w3.org/2000/01/rdf-schema#label> "E33_Linguistic_Object" .
+<https://cair-nepal.org/nchlodE33LinguisticObject> <http://www.w3.org/2004/02/skos/core#definition> "This class comprises statements, inscriptions, or textual objects." .
+<https://cair-nepal.org/nchlodE33LinguisticObject> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE36VisualItem
+<https://cair-nepal.org/nchlodE36VisualItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE36VisualItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid58 .
+_:genid58 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE36VisualItem> .
+_:genid58 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchloddepicted_in> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE36VisualItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid59 .
+_:genid59 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid59 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchloddepicted_in> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE36VisualItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid60 .
+_:genid60 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid60 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchloddepicted_in> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE36VisualItem> <http://www.w3.org/2000/01/rdf-schema#label> "E36_Visual_Item" .
+<https://cair-nepal.org/nchlodE36VisualItem> <http://www.w3.org/2004/02/skos/core#definition> "This class comprises images and other forms of visual representation." .
+<https://cair-nepal.org/nchlodE36VisualItem> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE39Actor
+<https://cair-nepal.org/nchlodE39Actor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE39Actor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid61 .
+_:genid61 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE5Event> .
+_:genid61 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodparticipated_in> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE39Actor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid62 .
+_:genid62 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid62 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodparticipated_in> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE39Actor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid63 .
+_:genid63 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid63 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodparticipated_in> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE39Actor> <http://www.w3.org/2000/01/rdf-schema#label> "E39_Actor" .
+<https://cair-nepal.org/nchlodE39Actor> <http://www.w3.org/2004/02/skos/core#definition> "This class comprises individual actors or groups that perform actions." .
+<https://cair-nepal.org/nchlodE39Actor> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE41LinguisticAppellation
+<https://cair-nepal.org/nchlodE41LinguisticAppellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE41LinguisticAppellation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64 .
+_:genid64 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE56Language> .
+_:genid64 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_language> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE41LinguisticAppellation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid65 .
+_:genid65 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid65 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_language> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE41LinguisticAppellation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid66 .
+_:genid66 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid66 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_language> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE41LinguisticAppellation> <http://www.w3.org/2000/01/rdf-schema#label> "E41_Linguistic_Appellation" .
+<https://cair-nepal.org/nchlodE41LinguisticAppellation> <http://www.w3.org/2004/02/skos/core#definition> "This class comprises names, titles, or other linguistic identifiers." .
+<https://cair-nepal.org/nchlodE41LinguisticAppellation> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE42Identifier
+<https://cair-nepal.org/nchlodE42Identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE42Identifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid67 .
+_:genid67 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE22HumanMadeObject> .
+_:genid67 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodidentifies_object> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE42Identifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid68 .
+_:genid68 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid68 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodidentifies_object> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE42Identifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid69 .
+_:genid69 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid69 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodidentifies_object> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE42Identifier> <http://www.w3.org/2000/01/rdf-schema#label> "E42_Identifier" .
+<https://cair-nepal.org/nchlodE42Identifier> <http://www.w3.org/2004/02/skos/core#definition> "This class comprises identifiers of things." .
+<https://cair-nepal.org/nchlodE42Identifier> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE4Period
+<https://cair-nepal.org/nchlodE4Period> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE4Period> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid70 .
+_:genid70 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:genid70 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_beginning> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE4Period> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid71 .
+_:genid71 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:genid71 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_end> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE4Period> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid72 .
+_:genid72 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid72 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_beginning> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE4Period> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid73 .
+_:genid73 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid73 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_end> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE4Period> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid74 .
+_:genid74 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid74 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_beginning> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE4Period> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid75 .
+_:genid75 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid75 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_end> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE4Period> <http://www.w3.org/2000/01/rdf-schema#label> "E4_Period" .
+<https://cair-nepal.org/nchlodE4Period> <http://www.w3.org/2004/02/skos/core#definition> "This class comprises identifiable periods of time." .
+<https://cair-nepal.org/nchlodE4Period> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE52Time-Span
+<https://cair-nepal.org/nchlodE52Time-Span> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE52Time-Span> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid76 .
+_:genid76 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:genid76 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_beginning> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE52Time-Span> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid77 .
+_:genid77 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:genid77 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_end> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE52Time-Span> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid78 .
+_:genid78 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid78 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_beginning> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE52Time-Span> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid79 .
+_:genid79 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid79 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_end> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE52Time-Span> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid80 .
+_:genid80 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid80 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_beginning> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE52Time-Span> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid81 .
+_:genid81 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid81 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_end> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE52Time-Span> <http://www.w3.org/2000/01/rdf-schema#label> "E52_Time-Span" .
+<https://cair-nepal.org/nchlodE52Time-Span> <http://www.w3.org/2004/02/skos/core#definition> "This class collects the beginning and ending of time spans." .
+<https://cair-nepal.org/nchlodE52Time-Span> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE53Place
+<https://cair-nepal.org/nchlodE53Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE53Place> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid82 .
+_:genid82 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid82 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_coordinates> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE53Place> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid83 .
+_:genid83 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid83 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_coordinates> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE53Place> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid84 .
+_:genid84 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid84 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_coordinates> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE53Place> <http://www.w3.org/2000/01/rdf-schema#label> "E53_Place" .
+<https://cair-nepal.org/nchlodE53Place> <http://www.w3.org/2004/02/skos/core#definition> "This class comprises locations in the natural world." .
+<https://cair-nepal.org/nchlodE53Place> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE54Dimension
+<https://cair-nepal.org/nchlodE54Dimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE54Dimension> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid85 .
+_:genid85 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE58MeasurementUnit> .
+_:genid85 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_unit> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE54Dimension> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid86 .
+_:genid86 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid86 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_unit> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE54Dimension> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid87 .
+_:genid87 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid87 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_unit> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE54Dimension> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid88 .
+_:genid88 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#float> .
+_:genid88 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_value> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE54Dimension> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid89 .
+_:genid89 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid89 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_value> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE54Dimension> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid90 .
+_:genid90 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid90 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_value> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE54Dimension> <http://www.w3.org/2000/01/rdf-schema#label> "E54_Dimension" .
+<https://cair-nepal.org/nchlodE54Dimension> <http://www.w3.org/2004/02/skos/core#definition> "This class comprises measurable dimensions of objects." .
+<https://cair-nepal.org/nchlodE54Dimension> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE55Type
+<https://cair-nepal.org/nchlodE55Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE55Type> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid91 .
+_:genid91 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE55Type> .
+_:genid91 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodreferenced_in> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE55Type> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid92 .
+_:genid92 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid92 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodreferenced_in> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE55Type> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid93 .
+_:genid93 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid93 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodreferenced_in> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE55Type> <http://www.w3.org/2000/01/rdf-schema#label> "E55_Type" .
+<https://cair-nepal.org/nchlodE55Type> <http://www.w3.org/2004/02/skos/core#definition> "This class refers to external vocabularies, such as AAT." .
+<https://cair-nepal.org/nchlodE55Type> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE56Language
+<https://cair-nepal.org/nchlodE56Language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE56Language> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid94 .
+_:genid94 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE39Actor> .
+_:genid94 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodspoken_by> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE56Language> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid95 .
+_:genid95 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid95 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodspoken_by> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE56Language> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid96 .
+_:genid96 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid96 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodspoken_by> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE56Language> <http://www.w3.org/2000/01/rdf-schema#label> "E56_Language" .
+<https://cair-nepal.org/nchlodE56Language> <http://www.w3.org/2004/02/skos/core#definition> "This class comprises the languages in which textual objects are written." .
+<https://cair-nepal.org/nchlodE56Language> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE57Material
+<https://cair-nepal.org/nchlodE57Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE57Material> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid97 .
+_:genid97 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE57Material> .
+_:genid97 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodused_in> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE57Material> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid98 .
+_:genid98 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid98 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodused_in> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE57Material> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid99 .
+_:genid99 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid99 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodused_in> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE57Material> <http://www.w3.org/2000/01/rdf-schema#label> "E57_Material" .
+<https://cair-nepal.org/nchlodE57Material> <http://www.w3.org/2004/02/skos/core#definition> "This class refers to the materials that make up an object." .
+<https://cair-nepal.org/nchlodE57Material> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE58MeasurementUnit
+<https://cair-nepal.org/nchlodE58MeasurementUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE58MeasurementUnit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid100 .
+_:genid100 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE58MeasurementUnit> .
+_:genid100 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodunit_of> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE58MeasurementUnit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101 .
+_:genid101 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid101 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodunit_of> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE58MeasurementUnit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid102 .
+_:genid102 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid102 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodunit_of> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE58MeasurementUnit> <http://www.w3.org/2000/01/rdf-schema#label> "E58_Measurement_Unit" .
+<https://cair-nepal.org/nchlodE58MeasurementUnit> <http://www.w3.org/2004/02/skos/core#definition> "The unit of measurement for a dimension value, such as inches." .
+<https://cair-nepal.org/nchlodE58MeasurementUnit> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE5Event
+<https://cair-nepal.org/nchlodE5Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE5Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid103 .
+_:genid103 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE52Time-Span> .
+_:genid103 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE5Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid104 .
+_:genid104 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE53Place> .
+_:genid104 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodoccurred_in> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE5Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid105 .
+_:genid105 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid105 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE5Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid106 .
+_:genid106 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid106 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodoccurred_in> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE5Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid107 .
+_:genid107 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid107 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE5Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid108 .
+_:genid108 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid108 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodoccurred_in> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE5Event> <http://www.w3.org/2000/01/rdf-schema#label> "E5_Event" .
+<https://cair-nepal.org/nchlodE5Event> <http://www.w3.org/2004/02/skos/core#definition> "This class comprises changes of state in the Nepal." .
+<https://cair-nepal.org/nchlodE5Event> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE65Creation
+<https://cair-nepal.org/nchlodE65Creation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE65Creation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid109 .
+_:genid109 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE73InformationObject> .
+_:genid109 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodcreated_concept> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE65Creation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid110 .
+_:genid110 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid110 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodcreated_concept> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE65Creation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid111 .
+_:genid111 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid111 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodcreated_concept> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE65Creation> <http://www.w3.org/2000/01/rdf-schema#label> "E65_Creation" .
+<https://cair-nepal.org/nchlodE65Creation> <http://www.w3.org/2004/02/skos/core#definition> "An activity that results in the creation of non-physical things." .
+<https://cair-nepal.org/nchlodE65Creation> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE66Formation
+<https://cair-nepal.org/nchlodE66Formation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE66Formation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid112 .
+_:genid112 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE74Group> .
+_:genid112 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodformed_group> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE66Formation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid113 .
+_:genid113 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE52Time-Span> .
+_:genid113 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE66Formation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid114 .
+_:genid114 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid114 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodformed_group> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE66Formation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid115 .
+_:genid115 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid115 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE66Formation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid116 .
+_:genid116 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid116 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodformed_group> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE66Formation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid117 .
+_:genid117 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid117 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE66Formation> <http://www.w3.org/2000/01/rdf-schema#label> "E66_Formation" .
+<https://cair-nepal.org/nchlodE66Formation> <http://www.w3.org/2004/02/skos/core#definition> "An event that results in the formation of a group." .
+<https://cair-nepal.org/nchlodE66Formation> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE67Birth
+<https://cair-nepal.org/nchlodE67Birth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE67Birth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid118 .
+_:genid118 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE21Person> .
+_:genid118 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodborn_person> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE67Birth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid119 .
+_:genid119 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE52Time-Span> .
+_:genid119 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE67Birth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid120 .
+_:genid120 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid120 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodborn_person> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE67Birth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid121 .
+_:genid121 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid121 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE67Birth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid122 .
+_:genid122 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid122 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodborn_person> .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE67Birth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid123 .
+_:genid123 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid123 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE67Birth> <http://www.w3.org/2000/01/rdf-schema#label> "E67_Birth" .
+<https://cair-nepal.org/nchlodE67Birth> <http://www.w3.org/2004/02/skos/core#definition> "The event of the birth of a person." .
+<https://cair-nepal.org/nchlodE67Birth> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE68Dissolution
+<https://cair-nepal.org/nchlodE68Dissolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE68Dissolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid124 .
+_:genid124 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE74Group> .
+_:genid124 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchloddissolved_group> .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE68Dissolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid125 .
+_:genid125 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE52Time-Span> .
+_:genid125 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE68Dissolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid126 .
+_:genid126 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid126 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchloddissolved_group> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE68Dissolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid127 .
+_:genid127 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid127 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE68Dissolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid128 .
+_:genid128 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid128 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchloddissolved_group> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE68Dissolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129 .
+_:genid129 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid129 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE68Dissolution> <http://www.w3.org/2000/01/rdf-schema#label> "E68_Dissolution" .
+<https://cair-nepal.org/nchlodE68Dissolution> <http://www.w3.org/2004/02/skos/core#definition> "The event that results in the dissolution of a group." .
+<https://cair-nepal.org/nchlodE68Dissolution> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE69Death
+<https://cair-nepal.org/nchlodE69Death> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE69Death> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid130 .
+_:genid130 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE21Person> .
+_:genid130 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchloddeceased_person> .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE69Death> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid131 .
+_:genid131 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE52Time-Span> .
+_:genid131 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE69Death> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid132 .
+_:genid132 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid132 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchloddeceased_person> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE69Death> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid133 .
+_:genid133 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid133 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE69Death> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid134 .
+_:genid134 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid134 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchloddeceased_person> .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE69Death> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid135 .
+_:genid135 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid135 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE69Death> <http://www.w3.org/2000/01/rdf-schema#label> "E69_Death" .
+<https://cair-nepal.org/nchlodE69Death> <http://www.w3.org/2004/02/skos/core#definition> "The event of the death of a person." .
+<https://cair-nepal.org/nchlodE69Death> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE6Destruction
+<https://cair-nepal.org/nchlodE6Destruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE6Destruction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid136 .
+_:genid136 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE22HumanMadeObject> .
+_:genid136 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchloddestroyed> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE6Destruction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid137 .
+_:genid137 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE52Time-Span> .
+_:genid137 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE6Destruction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid138 .
+_:genid138 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid138 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchloddestroyed> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE6Destruction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid139 .
+_:genid139 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid139 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE6Destruction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid140 .
+_:genid140 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid140 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchloddestroyed> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE6Destruction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid141 .
+_:genid141 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid141 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE6Destruction> <http://www.w3.org/2000/01/rdf-schema#label> "E6_Destruction" .
+<https://cair-nepal.org/nchlodE6Destruction> <http://www.w3.org/2004/02/skos/core#definition> "This class comprises events that result in the destruction of an object." .
+<https://cair-nepal.org/nchlodE6Destruction> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE73InformationObject
+<https://cair-nepal.org/nchlodE73InformationObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE73InformationObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid142 .
+_:genid142 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid142 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodcontains_information> .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE73InformationObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid143 .
+_:genid143 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid143 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodcontains_information> .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE73InformationObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid144 .
+_:genid144 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid144 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodcontains_information> .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE73InformationObject> <http://www.w3.org/2000/01/rdf-schema#label> "E73_Information_Object" .
+<https://cair-nepal.org/nchlodE73InformationObject> <http://www.w3.org/2004/02/skos/core#definition> "This class comprises concepts, schemes, and textual objects." .
+<https://cair-nepal.org/nchlodE73InformationObject> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE74Group
+<https://cair-nepal.org/nchlodE74Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE74Group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid145 .
+_:genid145 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE39Actor> .
+_:genid145 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_members> .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE74Group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid146 .
+_:genid146 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid146 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_members> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE74Group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid147 .
+_:genid147 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid147 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_members> .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE74Group> <http://www.w3.org/2000/01/rdf-schema#label> "E74_Group" .
+<https://cair-nepal.org/nchlodE74Group> <http://www.w3.org/2004/02/skos/core#definition> "This class comprises groups of people or organizations." .
+<https://cair-nepal.org/nchlodE74Group> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE79PartAddition
+<https://cair-nepal.org/nchlodE79PartAddition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE79PartAddition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid148 .
+_:genid148 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE22HumanMadeObject> .
+_:genid148 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodadded_part> .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE79PartAddition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid149 .
+_:genid149 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid149 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodadded_part> .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE79PartAddition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid150 .
+_:genid150 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid150 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodadded_part> .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE79PartAddition> <http://www.w3.org/2000/01/rdf-schema#label> "E79_Part_Addition" .
+<https://cair-nepal.org/nchlodE79PartAddition> <http://www.w3.org/2004/02/skos/core#definition> "An event that results in the addition of a part to an object." .
+<https://cair-nepal.org/nchlodE79PartAddition> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE7Activity
+<https://cair-nepal.org/nchlodE7Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE7Activity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid151 .
+_:genid151 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE52Time-Span> .
+_:genid151 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE7Activity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid152 .
+_:genid152 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE22HumanMadeObject> .
+_:genid152 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodproduced> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE7Activity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid153 .
+_:genid153 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE57Material> .
+_:genid153 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodused> .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE7Activity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid154 .
+_:genid154 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid154 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE7Activity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid155 .
+_:genid155 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid155 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodproduced> .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE7Activity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid156 .
+_:genid156 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid156 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodused> .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE7Activity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid157 .
+_:genid157 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid157 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE7Activity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid158 .
+_:genid158 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid158 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodproduced> .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE7Activity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid159 .
+_:genid159 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid159 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodused> .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE7Activity> <http://www.w3.org/2000/01/rdf-schema#label> "E7_Activity" .
+<https://cair-nepal.org/nchlodE7Activity> <http://www.w3.org/2004/02/skos/core#definition> "This class comprises actions or processes that result in changes of state." .
+<https://cair-nepal.org/nchlodE7Activity> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE80PartRemoval
+<https://cair-nepal.org/nchlodE80PartRemoval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE80PartRemoval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160 .
+_:genid160 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE22HumanMadeObject> .
+_:genid160 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodremoved_part> .
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE80PartRemoval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid161 .
+_:genid161 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid161 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodremoved_part> .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE80PartRemoval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid162 .
+_:genid162 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid162 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodremoved_part> .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE80PartRemoval> <http://www.w3.org/2000/01/rdf-schema#label> "E80_Part_Removal" .
+<https://cair-nepal.org/nchlodE80PartRemoval> <http://www.w3.org/2004/02/skos/core#definition> "An event that results in the removal of a part from an object." .
+<https://cair-nepal.org/nchlodE80PartRemoval> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE85Joining
+<https://cair-nepal.org/nchlodE85Joining> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE85Joining> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid163 .
+_:genid163 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE21Person> .
+_:genid163 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodjoined_people> .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE85Joining> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid164 .
+_:genid164 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid164 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodjoined_people> .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE85Joining> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid165 .
+_:genid165 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid165 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodjoined_people> .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE85Joining> <http://www.w3.org/2000/01/rdf-schema#label> "E85_Joining" .
+<https://cair-nepal.org/nchlodE85Joining> <http://www.w3.org/2004/02/skos/core#definition> "An event that records the joining of two individuals in a marriage." .
+<https://cair-nepal.org/nchlodE85Joining> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE86Leaving
+<https://cair-nepal.org/nchlodE86Leaving> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE86Leaving> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid166 .
+_:genid166 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE21Person> .
+_:genid166 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodseparated_people> .
+_:genid166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE86Leaving> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid167 .
+_:genid167 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid167 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodseparated_people> .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE86Leaving> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid168 .
+_:genid168 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid168 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodseparated_people> .
+_:genid168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE86Leaving> <http://www.w3.org/2000/01/rdf-schema#label> "E86_Leaving" .
+<https://cair-nepal.org/nchlodE86Leaving> <http://www.w3.org/2004/02/skos/core#definition> "An event that records the dissolution of a marriage." .
+<https://cair-nepal.org/nchlodE86Leaving> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE89PropositionalObject
+<https://cair-nepal.org/nchlodE89PropositionalObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE89PropositionalObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid169 .
+_:genid169 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid169 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodproposition> .
+_:genid169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE89PropositionalObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid170 .
+_:genid170 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid170 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodproposition> .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE89PropositionalObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid171 .
+_:genid171 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid171 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodproposition> .
+_:genid171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE89PropositionalObject> <http://www.w3.org/2000/01/rdf-schema#label> "E89_Propositional_Object" .
+<https://cair-nepal.org/nchlodE89PropositionalObject> <http://www.w3.org/2004/02/skos/core#definition> "This class refers to propositions or promises about reality." .
+<https://cair-nepal.org/nchlodE89PropositionalObject> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE8Acquisition
+<https://cair-nepal.org/nchlodE8Acquisition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE8Acquisition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid172 .
+_:genid172 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE22HumanMadeObject> .
+_:genid172 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodacquired> .
+_:genid172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE8Acquisition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid173 .
+_:genid173 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE52Time-Span> .
+_:genid173 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE8Acquisition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174 .
+_:genid174 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid174 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodacquired> .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE8Acquisition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid175 .
+_:genid175 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid175 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid175 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE8Acquisition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid176 .
+_:genid176 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid176 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodacquired> .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE8Acquisition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177 .
+_:genid177 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid177 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_time> .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE8Acquisition> <http://www.w3.org/2000/01/rdf-schema#label> "E8_Acquisition" .
+<https://cair-nepal.org/nchlodE8Acquisition> <http://www.w3.org/2004/02/skos/core#definition> "This class comprises events that result in the acquisition of an object." .
+<https://cair-nepal.org/nchlodE8Acquisition> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE97MonetaryAmount
+<https://cair-nepal.org/nchlodE97MonetaryAmount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE97MonetaryAmount> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid178 .
+_:genid178 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#float> .
+_:genid178 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_value> .
+_:genid178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE97MonetaryAmount> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid179 .
+_:genid179 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid179 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_value> .
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE97MonetaryAmount> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid180 .
+_:genid180 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid180 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodhas_value> .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE97MonetaryAmount> <http://www.w3.org/2000/01/rdf-schema#label> "E97_Monetary_Amount" .
+<https://cair-nepal.org/nchlodE97MonetaryAmount> <http://www.w3.org/2004/02/skos/core#definition> "This class comprises amounts of money for prices or payments." .
+<https://cair-nepal.org/nchlodE97MonetaryAmount> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodE98Currency
+<https://cair-nepal.org/nchlodE98Currency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodE98Currency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid181 .
+_:genid181 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://cair-nepal.org/nchlodE98Currency> .
+_:genid181 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodused_in_transaction> .
+_:genid181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE98Currency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid182 .
+_:genid182 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid182 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodused_in_transaction> .
+_:genid182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE98Currency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid183 .
+_:genid183 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid183 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodused_in_transaction> .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodE98Currency> <http://www.w3.org/2000/01/rdf-schema#label> "E98_Currency" .
+<https://cair-nepal.org/nchlodE98Currency> <http://www.w3.org/2004/02/skos/core#definition> "The currency of the monetary amount." .
+<https://cair-nepal.org/nchlodE98Currency> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# https://cair-nepal.org/nchlodPlace
+<https://cair-nepal.org/nchlodPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://cair-nepal.org/nchlodPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid184 .
+_:genid184 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid184 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodcoordinates> .
+_:genid184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid185 .
+_:genid185 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid185 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodname> .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid186 .
+_:genid186 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid186 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodcoordinates> .
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid187 .
+_:genid187 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid187 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodname> .
+_:genid187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid188 .
+_:genid188 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid188 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodcoordinates> .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid189 .
+_:genid189 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid189 <http://www.w3.org/2002/07/owl#onProperty> <https://cair-nepal.org/nchlodname> .
+_:genid189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cair-nepal.org/nchlodPlace> <http://www.w3.org/2000/01/rdf-schema#label> "Place" .
+<https://cair-nepal.org/nchlodPlace> <http://www.w3.org/2004/02/skos/core#definition> "The location associated with an event or cultural heritage object in which the contributor has contributed." .
+<https://cair-nepal.org/nchlodPlace> <http://www.w3.org/2004/02/skos/core#inScheme> <file:/C:/linkml/CHLOD/NCHLOD> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
